@@ -1,0 +1,83 @@
+body {
+    background-color: #ff3cac;
+    background-image: linear-gradient(225deg, #150047 0%, #784ba0 50%, #24a1e9 100%);
+}
+p {
+    margin: 0;
+}
+#wrapper {
+    background: #2e2e2e;
+    color: white;
+}
+.container {
+    width: 60%;
+}
+h4 {
+    color: rgb(0, 140, 255);
+}
+.progress-bar {
+    background-color: rgb(0, 119, 216) !important;
+}
+
+/* head */
+
+#head {
+    background: white;
+    color: #000;
+    padding: 10px;
+}
+#head img {
+    clip-path: circle(40.73% at 52% 41%);
+    /* object-fit: scale-down; */
+}
+#head a {
+    color: #000;
+    font-size: 1.5em;
+}
+#head a:hover {
+    color: rgb(0, 140, 255);
+}
+
+/* body */
+#body .line {
+    display: none;
+}
+#body #left-body {
+    padding: 20px;
+}
+#body #education hr {
+    width: 30%;
+}
+#body #right-body {
+    padding: 20px;
+}
+#body #right-body a {
+    text-decoration: none;
+}
+#body #hobbies i {
+    font-size: 2em;
+}
+#hobbies a {
+    color: white;
+}
+#hobbies h6:hover {
+    color: rgb(0, 140, 255);
+}
+#hobbies a:hover {
+    color: rgb(0, 140, 255);
+}
+
+@media (max-width: 992px) {
+    #body #right-body .hbox {
+        margin: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #body .line {
+        display: block;
+    }
+    #description {
+        display: flex;
+    }
+}
