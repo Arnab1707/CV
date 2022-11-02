@@ -26,10 +26,6 @@ h4 {
     color: #000;
     padding: 10px;
 }
-#head img {
-    clip-path: circle(40.73% at 52% 41%);
-    /* object-fit: scale-down; */
-}
 #head a {
     color: #000;
     font-size: 1.5em;
